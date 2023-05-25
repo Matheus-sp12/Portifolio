@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./img/logo.avif" type="image/x-icon">
+<script src="https://kit.fontawesome.com/52b161db3e.js" crossorigin="anonymous"></script>
+    <title>Vinicius Matheus</title>
+    <link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <!--Começo navegação-->
+    <header>
+        <header id="header">
+            <p id="logo">VM</p>
+            <nav id="nav">
+              <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                <span id="hamburger"></span>
+              </button>
+              <ul id="menu" role="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contato">Contatos</a></li>
+              </ul>
+            </nav>
+          </header>
+    </header>
+
+        <!--Fim navegação-->
+
+                <!--Começo Home-->
+
+    <main>
+
+        <a name="home"></a><section class="principal">
+
+            <img src="img/eu.jpg" class="principal__imagem animate__animated animate__zoomInDown">
+
+            <div>    
+                <h3 class="principal__sobretitulo">Olá, bem vindo</h3>
+                <h2 class="principal__titulo">Vinicius Matheus</h2>
+                <p class="principal__texto">Desenvolvedor Front end - UX/UI</p>
+                <a href="Curriculo-p.pdf" class="principal__curriculo">Baixe meu curriculo</a>
+            </div>
+        </section>
+
+          <!--FIm do Home-->
+
+            <!--Começo do sobre mim-->
+
+                <section>
+            
+                <a name="sobre"></a><h3 class="sobre__titulo">Sobre Mim</h3>
+            <div class="sobre" data-aos="fade-right"  data-aos-duration="3000">
+                <p class="sobre__texto">
+                     Escolhi cursar Ciência da computação, focado em entrar na area de Games, 
+                     pois sempre gostei muito de jogos. Na faculdade tive oportunidade de atuar em
+                      um projeto onde tive o meu primeiro contato com o desenvolvimento web, 
+                      onde aprendi sobre HTML, CSS, Javascript e também desenvolvi alguns 
+                      sites usando o Wordpress e foi ali que eu me apaixonei e decidi me aprofundar. 
+                      Gosto da área porque me proporciona um mar de desafios e novas descobertas,
+                       consequentemente, me fazendo evoluir constantemente dia após dia poia sou uma pessoa 
+                       que adora resolver problemas, quando vejo algo que não consigo resolver,
+                       isso me causa um grande incômodo e me impulsiona a querer solucionar o problema.  Meu objetivo
+                        é obter mais conhecimentos teóricos e práticos com a finalidade de me tornar 
+                        um programador Full Stack, Sou dedicado, trabalho bem tanto sozinho quanto 
+                        em equipe, sou bastante organizado e consigo manejar bem meu tempo.</p>
+
+
+            <img src="img/sobre.jpg" class="sobre__imagem">
+        </div>
+        </section>
+
+   <!--FIm do sobre mim-->
+
+      <!--Começo dos meus projetos-->
+        <section class="projetoos"  data-aos="fade-left"  data-aos-duration="3000">
+
+            <a name="projetos"></a><h3 class="sobre__titulo">Projetos</h3>
+
+            <section  data-aos="fade-left"  data-aos-duration="3000">
+                <div class="container">
+                    <div class="carousel">
+                        <input type="radio" name="slides" checked="checked" id="slide-1">
+                        <input type="radio" name="slides" id="slide-2">
+                        <input type="radio" name="slides" id="slide-3">
+                        <input type="radio" name="slides" id="slide-4">
+                        <input type="radio" name="slides" id="slide-5">
+                        <input type="radio" name="slides" id="slide-6">
+                        <ul class="carousel__slides">
+                            <li class="carousel__slide">
+                                <figure>
+                                    <div>
+                                        <img src="img/pokedex.jpg" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <h2 class="projeto_titulo">Pokedex</h2>
+                                        <span class="credit"><p class="projeto_texto">Projeto de uma Pokedex, desenvolvido para em JavaScript</p>
+                                            <a class="projeto_link" href="https://pokedex-beta-smoky.vercel.app/" target="_blank">Clique para ver o projeto</a>
+                                        </span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="carousel__slide">
+                                <figure>
+                                    <div>
+                                        <img src="img/air-nike.jpg" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <h2 class="projeto_titulo">Air Jordan</h2>
+                                        <span class="credit"><p class="projeto_texto">Loja de Tenis e roupas da nike Desenvolvido para treinar, utilizando o display flex e grid</p></span>  
+                                        <a class="projeto_link" href="https://air-jordan.vercel.app/" target="_blank">Clique para ver o projeto</a>                         
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="carousel__slide">
+                                <figure>
+                                    <div>
+                                        <img src="img/camilly-hair.jpg" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <h2 class="projeto_titulo">Camilly Hair</h2>
+                                        <span class="credit"><p class="projeto_texto">Criei um site de cabelereiro feminino para treinar HTML e CSS</p>
+                                            <a class="projeto_link" href="https://cabelereiro-feminina.vercel.app/produtos.html" target="_blank">Clique para ver o projeto</a>                         
+                                        </span>                            
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="carousel__slide">
+                                <figure>
+                                    <div>
+                                        <img src="img/bandicam 2023-05-24 20-58-31-508.jpg" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <h2 class="projeto_titulo">SilvaFit</h2>
+                                        <span class="credit"><p  class="projeto_texto">Projeto desenvolvido através das aulas da Alura onde aprendi o Bootstrap e ao final do curso desenvolvi para treinar</p></span>                            
+                                        <a class="projeto_link" href="https://silva-fit.vercel.app/" target="_blank">Clique para ver o projeto</a>                         
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="carousel__slide">
+                                <figure>
+                                    <div>
+                                        <img src="img/book.jpg" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <h2 class="projeto_titulo">AiraBook</h2>
+                                        <span class="credit"><p  class="projeto_texto">Projeto desenvolvido pelas aulas da Alura sobre Mobile-first</p></span>                            
+                                        <a class="projeto_link" href="https://alurabook-azure-one.vercel.app/" target="_blank">Clique para ver o projeto</a>                         
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="carousel__slide">
+                                <figure>
+                                    <div>
+                                        <img src="img/meteora.jpg" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <h2 class="projeto_titulo">Meteoro</h2>
+                                        <span class="credit"><p class="projeto_texto">Projeto criado uma pagina de uma loja de roupas chamado Meteoro e nele foi utilizado HTML, um pouco de CSS e Bootstrap bootstrap</p></span>                            
+                                        <a class="projeto_link" href="https://meteoro.vercel.app/" target="_blank">Clique para ver o projeto</a>                         
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>    
+                        <ul class="carousel__thumbnails">
+                            <li>
+                                <label for="slide-1"><img src="img/pokedex.jpg" alt=""></label>
+                            </li>
+                            <li>
+                                <label for="slide-2"><img src="img/air-nike.jpg" alt=""></label>
+                            </li>
+                            <li>
+                                <label for="slide-3"><img src="img/camilly-hair.jpg" alt=""></label>
+                            </li>
+                            <li>
+                                <label for="slide-4"><img src="img/bandicam 2023-05-24 20-58-31-508.jpg" alt=""></label>
+                            </li>
+                            <li>
+                                <label for="slide-5"><img src="img/book.jpg" alt=""></label>
+                            </li>
+                            <li>
+                                <label for="slide-6"><img src="img/meteora.jpg" alt=""></label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="botao"  data-aos="fade-left"  data-aos-duration="3000">
+
+            <a href="https://github.com/Matheus-sp12?tab=repositories" target="_blank">Veja Mais Meus Projetos</a> 
+            
+        </section>
+  <!--FIm dos meus projetos-->
+
+    <!--Começo skill-->
+
+        <section>
+
+            <a name="skills"></a> <h3 class="sobre__titulo">Skills</h3>
+
+            <div class="skillss">
+
+                <ul class="lista__skill"  data-aos="fade-right"  data-aos-duration="3000">
+                    <li class="skill__linha"><i class="fa-brands fa-html5 fa-lg"></i><p class="texto__skill">HTML 5</p></li>
+                    <li class="skill__linha"><i class="fa-brands fa-css3-alt fa-lg"></i><p class="texto__skill">CSS</p></li>
+                    <li class="skill__linha"><i class="fa-brands fa-git-alt fa-lg"></i><p class="texto__skill">Git</p></li>
+                    <li class="skill__linha"><i class="fa-brands fa-github fa-lg"></i><p class="texto__skill">GitHub</p></li>
+                    <li class="skill__linha"><i class="fa-brands fa-square-js fa-lg"></i><p class="texto__skill">JavaScript</p></li>
+                    <li class="skill__linha"><i class="fa-brands fa-bootstrap fa-lg"></i><p class="texto__skill">Bootstrap</p></li>
+                    <li class="skill__linha"><i class="fa-brands fa-sass fa-lg"></i><p class="texto__skill">Sass</p></li>
+                    <li class="skill__linha"><p class="tail">~ ~</p><p class="texto__skill">Tailwind</p></li>
+
+
+                </ul>
+            </div>
+        </section>
+
+  <!--FIm das skill-->
+
+
+
+
+    <!--Começo dos contatos-->
+
+    <div  data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
+
+    <a name="contato"></a><section class="contato">
+
+
+        <h3 class="sobre__titulo">Contatos</h3>
+
+        <p class="contato__texto">Gostou do que viu? entre em contato!! </p>
+
+
+    <form
+    action="https://formsubmit.co/ajax/viniciussilva_1@hotmail.com"
+    method="POST"
+    data-form
+  >
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome" required />
+    <label for="email">E-mail</label>
+    <input type="email" name="email" id="email" required />
+    <label for="mensagem">Mensagem</label>
+    <textarea name="mensagem" id="mensagem" required></textarea>
+    <div>
+    <button type="submit" class="botaoo" data-button>Enviar</button>
+  </form>
+
+</div>
+
+
+    <h3 class="sobre__titulo">Me acompanhe em minhas redes sociais também!!</h3>
+
+<div class="lista">
+    <ul class="lista__rede">
+        <li  class="lista__lin"><a href="https://www.linkedin.com/in/vin%C3%ADcius-matheus-oliveira-e-silva-450b771a0/"><i class="fa-brands fa-linkedin fa-bounce fa-sm"></i></a></li>
+        <li  class="lista__insta"><a href="https://www.instagram.com/vinicius_math15/"><i class="fa-brands fa-instagram fa-bounce fa-xl"></i></a></li>
+        <li  class="lista__git"><a href="https://github.com/Matheus-sp12"><i class="fa-brands fa-github fa-bounce fa-sm"></i></a></li>
+    </ul>
+</div>
+</div>
+</section>
+
+
+    <!--Fim dos contatos-->
+
+
+        <!--Começo do footer-->
+
+<footer>
+
+    <h1 class="footer__logo">VM</h1>
+    <p class="footer__texto">&copy; 2023 Todos os direitos são reservado Vinicius Matheus </p>
+</footer>
+
+    <!--Fim do footer-->
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>
+
+
+
+
